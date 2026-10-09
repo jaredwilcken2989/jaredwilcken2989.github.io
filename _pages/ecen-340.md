@@ -20,6 +20,7 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 <!-- IMAGE PLACEHOLDER 1: Replace the filename below with your SPICE screenshot. -->
 
 ![SPICE simulation of filter circuit](/images/ecen-340/filter-spice.jpg)
+![SPICE simulation Graphs](/images/ecen-340/spice-simulation-graphs.jpg)
 
 *Figure 1. SPICE schematic and simulation of the filter circuit.*
 
@@ -42,7 +43,7 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 
 * **Implementation:** We used two breadboards and a MCP6002 op amp
 * **Equipment:** Oscilloscope and function generator
-* **Debugging:** We weren't seeing any signal come through. Our photodiode wasn't configrued properly.
+* **Debugging:** We didn't see any signal come through until we repositioned our photodiode current-to-voltage component.
 
 ## Tools and Technical Skills
 
