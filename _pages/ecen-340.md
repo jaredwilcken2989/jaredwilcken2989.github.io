@@ -3,7 +3,7 @@ layout: single
 title: "ECEN 340"
 permalink: /ecen-340/
 author_profile: true
---------------------
+---
 
 # ECEN 340: Circuit Design and Laboratory Work
 
