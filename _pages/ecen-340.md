@@ -58,4 +58,4 @@ This project has helped me connect circuit theory and simulation with physical i
 
 **What I learned:** I learned that eacho component must be measured and tested before integrating it into the rest of the circuit. This is an iterative process.
 
-**What I would improve next:** We need to simplify our breadboard construction of the reciever. We alo need to add our transmitter next. We will test the transmitter with the lab equipment and oscilloscope.
+**What I would improve next:** We need to simplify our breadboard construction of the reciever. We also need to add our transmitter next. We will test the transmitter with the lab equipment and oscilloscope.
