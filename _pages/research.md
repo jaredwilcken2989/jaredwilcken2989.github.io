@@ -13,7 +13,8 @@ An overview of research interests, projects, and technical contributions.
 
 ## Research Interests
 
-Describe the electrical engineering topics and questions you are interested in.
+Post-Quantum Cryptography (PQC)
+Quantum Error Correction (QEC)
 
 ## Projects
 
