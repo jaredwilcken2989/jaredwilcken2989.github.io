@@ -11,8 +11,8 @@ author_profile: true
 
 ## Research Interests
 
-Post-Quantum Cryptography (PQC)
-Quantum Error Correction (QEC)
+* Post-Quantum Cryptography (PQC)
+* Quantum Error Correction (QEC)
 
 <!--
 ## Projects
