@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "jared_headshot.jpg"
+  avatar           : "bio-photo-2.jpg"
   name             : "Jared Wilcken"
   pronouns         : # example: "she/her"  
   bio              : "Jared Wilcken's academic portfolio"
