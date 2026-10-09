@@ -25,9 +25,9 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 
 **Design and analysis**
 
-* **Objective:** Attenuate noise from the power source and environment while amplifying select player frequencies
-* **Design approach:** Voltage divider paired with two active bandpass filters with an additional lowpass filter
-* **Simulation:** Using a number of noise sources, we analyzed the signal to noise strength and found the peak-to-peak voltage of the signal was 0.4 V higher than the peak-to-peak voltage of the noise.
+* **Objective:** Reduce noise from the power supply and surrounding environment while amplifying frequencies associated with the desired signal.
+* **Design approach:** Combined a voltage divider with two active band-pass filters and an additional low-pass filter to shape the circuit's frequency response.
+* **Simulation:** Tested the circuit using multiple noise sources and analyzed the resulting signal. The simulated signal had a peak-to-peak voltage 0.4 V greater than that of the noise.
 * **Key takeaway:** A reciever must account for source and environment noise while still amplifying the signal of interest.
 
 ### Physical Circuit Implementation
@@ -53,8 +53,8 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 
 ## Design Journey
 
-This project has helped me connect circuit theory and simulation with physical implementation and laboratory measurement. One important part of the process is understanding why measured circuit behavior may differ from simulated predictions.
+This project has helped me connect circuit theory and simulation with physical implementation and laboratory measurement. One important part of the process is understanding why measured circuit behavior may differ from simulated predictions. This took a lot of debugging.
 
-**What I learned:** [Describe a specific technical concept or debugging lesson.]
+**What I learned:** I learned that eacho component must be measured and tested before integrating it into the rest of the circuit. This is an iterative process.
 
-**What I would improve next:** [Identify a design change, additional measurement, or more rigorous analysis you would perform.]
+**What I would improve next:** We need to simplify our breadboard construction of the reciever. We alo need to add our transmitter next. We will test the transmitter with the lab equipment and oscilloscope.

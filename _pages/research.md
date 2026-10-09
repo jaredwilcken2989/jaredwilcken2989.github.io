@@ -14,6 +14,7 @@ author_profile: true
 Post-Quantum Cryptography (PQC)
 Quantum Error Correction (QEC)
 
+<!--
 ## Projects
 
 Summarize each research project, including its objective, your contribution, and outcomes.
@@ -25,3 +26,4 @@ Describe relevant analytical methods, instruments, software, and hardware.
 ## Related Publications
 
 See the [Publications](/publications/) page for papers and other published work.
+-->
