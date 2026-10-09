@@ -7,6 +7,10 @@ author_profile: true
 
 An overview of research interests, projects, and technical contributions.
 
+![Immerse 2026](/images/immerse-2026.jpg)
+
+*Immerse 2026*
+
 ## Research Interests
 
 Describe the electrical engineering topics and questions you are interested in.
