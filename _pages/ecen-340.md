@@ -7,9 +7,9 @@ author_profile: true
 
 # ECEN 340: Circuit Design and Laboratory Work
 
-This page documents selected circuit design and laboratory projects completed in ECEN 340 at Brigham Young University. My work includes circuit simulation, PCB design, hardware prototyping, and laboratory testing. These projects help me develop practical skills in analyzing, building, testing, and debugging electronic circuits.
+This page documents selected circuit design and laboratory projects completed in ECEN 340 at Brigham Young University. My work includes circuit simulation, PCB design, hardware prototyping, and laboratory testing.
 
-## Filter Design Project
+## Laser-tag Reciever
 
 ### Overview
 
@@ -25,10 +25,10 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 
 **Design and analysis**
 
-* **Objective:** [Describe the purpose and desired frequency response of the filter.]
-* **Design approach:** [Describe the circuit topology and component selection.]
-* **Simulation:** [Summarize the simulated frequency response and other relevant results.]
-* **Key takeaway:** [Explain what you learned from the simulation.]
+* **Objective:** Attenuate noise from the power source and environment while amplifying select player frequencies
+* **Design approach:** Voltage divider paired with two active bandpass filters with an additional lowpass filter
+* **Simulation:** Using a number of noise sources, we analyzed the signal to noise strength and found the peak-to-peak voltage of the signal was 0.4 V higher than the peak-to-peak voltage of the noise.
+* **Key takeaway:** A reciever must account for source and environment noise while still amplifying the signal of interest.
 
 ### Physical Circuit Implementation
 
@@ -40,11 +40,9 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 
 **Hardware testing**
 
-* **Implementation:** [Describe how you assembled the circuit and selected components.]
-* **Equipment:** Oscilloscope and function generator.
-* **Measurements:** [Describe the input and output signals and any measurements taken.]
-* **Comparison:** [Compare measured behavior with SPICE predictions.]
-* **Debugging:** [Describe any problems encountered and how you investigated them.]
+* **Implementation:** We used two breadboards and a MCP6002 op amp
+* **Equipment:** Oscilloscope and function generator
+* **Debugging:** We weren't seeing any signal come through. Our photodiode wasn't configrued properly.
 
 ## Tools and Technical Skills
 
