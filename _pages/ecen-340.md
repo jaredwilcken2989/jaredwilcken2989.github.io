@@ -48,6 +48,35 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 * **Troubleshooting:** We didn’t see any signal come through until we repositioned our photodiode current-to-voltage component. Our transmitter also didn't initially produce enough current. This is because we had a faulty LED component.
 * **Key takeaway:** Building the circuit showed me that a working simulation doesn't always translate directly to physical hardware. Component placement, wiring, and troubleshooting are just as important as the circuit design itself.
 
+<!-- IMAGE PLACEHOLDER 3: Replace the filename below with your kicad schematic. -->
+
+![Kicad Schematic](/images/ecen-340/pcb_schematic.jpg)
+
+*Figure 3. KiCad Schematic Design.*
+
+**Design and Analysis**
+
+* **Objective:** Convert our tested laser tag transmitter and receiver circuits into a complete KiCad schematic for PCB design.
+* **Design approach:** Organized the receiver's amplification and filtering stages alongside the LED transmitter circuit, selecting components and assigning appropriate symbols and footprints.
+* **Design specifications:** Designed around a 3.3 V power supply, with the receiver intended to detect signals across the 1250–3636 Hz frequency range.
+* **Verification:** Checked component connections, pin assignments, and power connections before transferring the schematic into the PCB layout.
+* **Key takeaway:** Creating a PCB schematic required more attention to component specifications and physical connections than the original SPICE simulation.
+
+<!-- IMAGE PLACEHOLDER 4: Replace the filename below with your kicab pcb and 3D rendering. -->
+
+![Kicad PCB Design](/images/ecen-340/pcb.jpg)
+![Kicad PCB 3D Rendering](/images/ecen-340/pcb_3d.jpg)
+
+*Figure 4. KiCad PCB Design and 3D Rendering.*
+
+**PCB Design and Layout**
+
+* **Objective:** Convert our KiCad schematic into a compact PCB layout that fits inside the laser tag housing.
+* **Design approach:** Selected component footprints, arranged components on both sides of the board, and routed copper traces to connect the transmitter and receiver circuits.
+* **Board specifications:** Designed a 74 × 32 mm PCB containing 33 components and 72 pads, with a minimum trace width of 0.305 mm and minimum clearance of 0.713 mm.
+* **Verification:** Used KiCad's 3D viewer to inspect component placement and check the physical layout before preparing the board for fabrication.
+* **Key takeaway:** PCB design taught me to consider physical constraints, component footprints, and trace routing alongside electrical functionality.
+
 ## Tools and Technical Skills
 
 * **Circuit simulation:** SPICE for modeling circuit behavior and evaluating designs.
