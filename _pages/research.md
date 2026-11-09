@@ -17,7 +17,7 @@ author_profile: true
 ![Immerse 2026](/images/nasit-2026.jpg)
 
 *International Telemetering Conference (ITC) 2026*
-* Alongside Tyler Randall and Yuxing Yang, I had the opportunity to present our research exploring the application of post-quantum cryptography in telemetry systems. Our work was recognized with the 2026 Cliff Aggen Student Paper Second-Place Award. Yuxing also won the first place award for his solo paper.
+* Alongside Tyler Randall and Yuxing Yang, I had the opportunity to present our research exploring the application of post-quantum cryptography in telemetry systems. Our work was recognized with the 2026 Cliff Aggen Student Paper Second-Place Award. Yuxing also won the first place award for his stand-alone paper.
 
 <!--
 ## Projects
