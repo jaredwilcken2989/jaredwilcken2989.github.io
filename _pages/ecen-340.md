@@ -35,15 +35,18 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 
 <!-- IMAGE PLACEHOLDER 2: Replace the filename below with your breadboard photo. -->
 
-![Breadboard implementation of filter circuit](/images/ecen-340/filter-breadboard.jpg)
+![Breadboard implementation of filter circuit](/images/ecen-340/reciever_transmitter_breadboard.jpg)
 
-*Figure 2. Physical breadboard implementation of the filter circuit.*
+*Figure 2. Breadboard Implementation and Hardware Testing for both reciever and transmitter.*
 
-**Hardware testing**
+**Design and Testing**
 
-* **Implementation:** We used two breadboards and a MCP6002 op amp
-* **Equipment:** Oscilloscope and function generator
-* **Debugging:** We didn't see any signal come through until we repositioned our photodiode current-to-voltage component.
+* **Objective:** Build and test the laser tag transmitter and receiver circuits on a breadboard.
+* **Implementation:** Built the receiver circuit across two breadboards using MCP6002 operational amplifiers, resistors, capacitors, and a photodiode. The transmitter required surface-mount soldering an LED driver chip onto a breakout board.
+* **Receiver testing:** Used an oscilloscope and FFT analysis to test signals at 1250 Hz, 2000 Hz, and 3636 Hz. At a sampling rate of 100 kHz, we measured a signal-to-noise difference of 0.333 V, passing the requirements.
+* **Transmitter testing:** Measured an LED current magnitude of approximately 77.6 mA at 2000 Hz using oscilloscope data and FFT analysis.
+* **Troubleshooting:** We didn’t see any signal come through until we repositioned our photodiode current-to-voltage component. Our transmitter also didn't initially produce enough current. This is because we had a faulty LED component.
+* **Key takeaway:** Building the circuit showed me that a working simulation doesn't always translate directly to physical hardware. Component placement, wiring, and troubleshooting are just as important as the circuit design itself.
 
 ## Tools and Technical Skills
 
