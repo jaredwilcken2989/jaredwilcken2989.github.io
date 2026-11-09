@@ -100,3 +100,9 @@ This project has helped me connect circuit theory and simulation with physical i
 
 ## BYU AIMS
 ![BYU Statue](/images/ecen-340/byu_aims.png)
+
+* **Spiritually Strengthening:**
+* **Intellectually Enlarging:**
+* **Character Building:**
+* **Leading to Lifelong Learning and Service:** Throughout my time in this class, I've been continually amazed and impressed by my classmates. During junior year, everyone has so many commitments. However, I've seen so many classmates stop what they are doing to tutor me. This is one of the primary reasons why I have been successful this year. In turn, I've tried to emmulate their actions. I've enjoyed turtoring my friends in their sophmore classes. I'm realizing that a fulfilling life is marked by having an outward focus.
+
