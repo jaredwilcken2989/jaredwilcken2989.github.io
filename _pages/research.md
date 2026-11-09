@@ -14,6 +14,11 @@ author_profile: true
 * Post-Quantum Cryptography (PQC)
 * Quantum Error Correction (QEC)
 
+![Immerse 2026](/images/nasit-2026.jpg)
+
+*International Telemetering Conference*
+* Tyler Randall, Yuxing Yang, and I were able to present our research about an experiement we ran connecting Post-Quantum Cryptography and telemetry. 
+
 <!--
 ## Projects
 
