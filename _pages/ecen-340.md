@@ -90,8 +90,10 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 
 ## Design Journey
 
-This project has helped me connect circuit theory and simulation with physical implementation and laboratory measurement. One important part of the process is understanding why measured circuit behavior may differ from simulated predictions. This took a lot of debugging.
+This project has helped me connect circuit theory and simulation with physical implementation and laboratory measurement.
 
-**What I learned:** I learned that each component must be measured and tested before integrating it into the rest of the circuit. This is an iterative process.
+**What I learned:** I learned that simulations don't instantly convert to physical circuit boards. There are multiple stages in the design process and lots of troubleshooting. It is an iterative process.
 
-**What I would improve next:** We need to simplify our breadboard construction of the reciever. We also need to add our transmitter next. We will test the transmitter with the lab equipment and oscilloscope.
+**New Skills:** Through ECEN 340, I've learned how to simulate circuits in SPICE, build and troubleshoot them on a breadboard, and use KiCad to create schematics and PCB layouts. These are all skills that I've developed since the beginning of the semester. Based on feedback from my first portfolio checkpoint, I also added quantitative measurements and testing details to better demonstrate our circuit's performance.
+
+**Next Steps:** Once our PCB's arrive from JLC, we will solder in our components and test our circuits performance using the same methods we used for the breadboard circuits.
