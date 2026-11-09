@@ -13,7 +13,7 @@ This page documents selected circuit design and laboratory projects completed in
 
 ### Overview
 
-For this project, I designed and simulated a filter circuit using SPICE, then worked with physical circuit implementation and testing. The project involves analyzing circuit behavior, evaluating design choices, and comparing theoretical expectations with practical results.
+For this project, I designed and simulated a filter circuit using SPICE, then worked with physical circuit implementation and testing. Then, we moved to PCB design with KiCad. The project involves analyzing circuit behavior, evaluating design choices, and comparing theoretical expectations with practical results.
 
 ### SPICE Simulation (Reciever Only)
 
@@ -28,7 +28,7 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 
 * **Objective:** Reduce noise from the power supply and surrounding environment while amplifying frequencies associated with the desired signal.
 * **Design approach:** Combined a voltage divider with two active band-pass filters and an additional low-pass filter to shape the circuit's frequency response.
-* **Simulation:** Tested the circuit using multiple noise sources and analyzed the resulting signal. The simulated signal had a peak-to-peak voltage 0.4 V greater than that of the noise.
+* **Simulation:** Tested the circuit using multiple noise sources and analyzed the resulting signal. The simulated signal had a peak-to-peak voltage 0.4 V greater than that of the noise, which was greater than the 200mV requirement.
 * **Key takeaway:** A reciever must account for source and environment noise while still amplifying the signal of interest.
 
 ### Physical Circuit Implementation
@@ -45,8 +45,8 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 * **Implementation:** Built the receiver circuit across two breadboards using MCP6002 operational amplifiers, resistors, capacitors, and a photodiode. The transmitter required surface-mount soldering an LED driver chip onto a breakout board.
 * **Receiver testing:** Used an oscilloscope and FFT analysis to test signals at 1250 Hz, 2000 Hz, and 3636 Hz. At a sampling rate of 100 kHz, we measured a signal-to-noise difference of 0.333 V, passing the requirement of at least 100 mV.
 * **Transmitter testing:** Measured an LED current magnitude of approximately 77.6 mA at 2000 Hz using oscilloscope data and FFT analysis.
-* **Troubleshooting:** We didn’t see any signal come through until we repositioned our photodiode current-to-voltage component. Our transmitter also didn't initially produce enough current. This is because we had a faulty LED component.
-* **Key takeaway:** Building the circuit showed me that a working simulation doesn't always translate directly to physical hardware. Component placement, wiring, and troubleshooting are just as important as the circuit design itself.
+* **Troubleshooting:** Reciever: we didn’t see any signal come through until we repositioned our photodiode current-to-voltage component. Transmitter: our transmitter didn't initially produce enough current. This is because we had a faulty LED component.
+* **Key takeaway:** Building the circuit showed me that a working simulation doesn't always translate directly to physical hardware. Testing and troubleshooting are just as important as the circuit design itself.
 
 ### KiCad Schematic
 
@@ -58,11 +58,11 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 
 **Design and Analysis**
 
-* **Objective:** Convert our tested laser tag transmitter and receiver circuits into a complete KiCad schematic for PCB design.
-* **Design approach:** Organized the receiver's amplification and filtering stages alongside the LED transmitter circuit, selecting components and assigning appropriate symbols and footprints.
+* **Objective:** Convert our tested laser tag transmitter and receiver circuits into a KiCad schematic for PCB design.
+* **Design approach:** Organized the receiver alongside the LED transmitter circuit while assigning appropriate symbols and footprints.
 * **Design specifications:** Designed around a 3.3 V power supply, with the receiver intended to detect signals across the 1250–3636 Hz frequency range.
-* **Verification:** Checked component connections, pin assignments, and power connections before transferring the schematic into the PCB layout.
-* **Key takeaway:** Creating a PCB schematic required more attention to component specifications and physical connections than the original SPICE simulation.
+* **Verification:** Checked component connections and power connections before transferring the schematic into the PCB layout.
+* **Key takeaway:** Creating a PCB schematic required more attention to component specifications (like pitch) and physical connections than the original SPICE simulation.
 
 ### PCB Design
 
@@ -75,11 +75,11 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 
 **PCB Design and Layout**
 
-* **Objective:** Convert our KiCad schematic into a compact PCB layout that fits inside the laser tag housing.
-* **Design approach:** Selected component footprints, arranged components on both sides of the board, and routed copper traces to connect the transmitter and receiver circuits.
-* **Board specifications:** Designed a 74 × 32 mm PCB containing 33 components and 72 pads, with a minimum trace width of 0.305 mm and minimum clearance of 0.713 mm.
-* **Verification:** Used KiCad's 3D viewer to inspect component placement and check the physical layout before preparing the board for fabrication.
-* **Key takeaway:** PCB design taught me to consider physical constraints, component footprints, and trace routing alongside electrical functionality.
+* **Objective:** Convert our KiCad schematic into a PCB layout that fits inside the laser tag case.
+* **Design approach:** Selected component footprints and arranged components on both sides of the board to connect the transmitter and receiver circuits.
+* **Board specifications and statistics:** Designed a 74 × 32 mm PCB resulting in 33 components and 72 pads, with a minimum trace width of 0.305 mm and minimum clearance of 0.713 mm.
+* **Verification:** Used KiCad's 3D viewer to check the physical layout before preparing the board for fabrication.
+* **Key takeaway:** PCB design taught me to consider physical constraints and trace routing when designing a board.
 
 ## Tools and Technical Skills
 
