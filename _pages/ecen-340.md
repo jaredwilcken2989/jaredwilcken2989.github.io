@@ -5,7 +5,7 @@ permalink: /ecen-340/
 author_profile: true
 ---
 
-# ECEN 340: Circuit Design and Laboratory Work
+# Circuit Design and Laboratory Work
 
 This page documents selected circuit design and laboratory projects completed in ECEN 340 at Brigham Young University. My work includes circuit simulation, PCB design, hardware prototyping, and laboratory testing.
 
