@@ -9,7 +9,7 @@ author_profile: true
 
 This page documents selected circuit design and laboratory projects completed in ECEN 340 at Brigham Young University. My work includes circuit simulation, PCB design, hardware prototyping, and laboratory testing.
 
-## Laser-tag Reciever
+## Laser-tag Reciever/Transmitter
 
 ### Overview
 
@@ -48,6 +48,8 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 * **Troubleshooting:** We didn’t see any signal come through until we repositioned our photodiode current-to-voltage component. Our transmitter also didn't initially produce enough current. This is because we had a faulty LED component.
 * **Key takeaway:** Building the circuit showed me that a working simulation doesn't always translate directly to physical hardware. Component placement, wiring, and troubleshooting are just as important as the circuit design itself.
 
+### KiCad Schematic
+
 <!-- IMAGE PLACEHOLDER 3: Replace the filename below with your kicad schematic. -->
 
 ![Kicad Schematic](/images/ecen-340/pcb_schematic.jpg)
@@ -62,10 +64,12 @@ For this project, I designed and simulated a filter circuit using SPICE, then wo
 * **Verification:** Checked component connections, pin assignments, and power connections before transferring the schematic into the PCB layout.
 * **Key takeaway:** Creating a PCB schematic required more attention to component specifications and physical connections than the original SPICE simulation.
 
+### PCB Design
+
 <!-- IMAGE PLACEHOLDER 4: Replace the filename below with your kicab pcb and 3D rendering. -->
 
 ![Kicad PCB Design](/images/ecen-340/pcb.jpg)
-![Kicad PCB 3D Rendering](/images/ecen-340/pcb_3d.jpg)
+![Kicad PCB 3D Rendering](/images/ecen-340/pcb_3d.png)
 
 *Figure 4. KiCad PCB Design and 3D Rendering.*
 
