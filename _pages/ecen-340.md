@@ -94,7 +94,9 @@ This project has helped me connect circuit theory and simulation with physical i
 
 **What I learned:** I learned that simulations don't instantly convert to physical circuit boards. There are multiple stages in the design process and lots of troubleshooting. It is an iterative process.
 
-**New Skills:** Through ECEN 340, I've learned how to simulate circuits in SPICE, build and troubleshoot them on a breadboard, and use KiCad to create schematics and PCB layouts. These are all skills that I've developed since the beginning of the semester. Based on feedback from my first portfolio checkpoint, I also added quantitative measurements and testing details to better demonstrate our circuit's performance.
+**New Skills:** Through ECEN 340, I've learned how to simulate circuits in SPICE, build and troubleshoot them on a breadboard, and use KiCad to create schematics and PCB layouts. These are all skills that I've developed since the beginning of the semester. 
+
+**Utilizing Feedback:** Based on feedback from my first portfolio checkpoint, I also added quantitative measurements and testing details to better demonstrate our circuit's performance.
 
 **Next Steps:** Once our PCB's arrive from JLC, we will solder in our components and test our circuits performance using the same methods we used for the breadboard circuits.
 
