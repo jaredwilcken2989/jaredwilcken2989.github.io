@@ -97,3 +97,6 @@ This project has helped me connect circuit theory and simulation with physical i
 **New Skills:** Through ECEN 340, I've learned how to simulate circuits in SPICE, build and troubleshoot them on a breadboard, and use KiCad to create schematics and PCB layouts. These are all skills that I've developed since the beginning of the semester. Based on feedback from my first portfolio checkpoint, I also added quantitative measurements and testing details to better demonstrate our circuit's performance.
 
 **Next Steps:** Once our PCB's arrive from JLC, we will solder in our components and test our circuits performance using the same methods we used for the breadboard circuits.
+
+## BYU AIMS
+![BYU Statue](/images/ecen-340/byu_aims.png)
