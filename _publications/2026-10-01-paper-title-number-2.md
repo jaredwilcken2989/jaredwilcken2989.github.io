@@ -2,6 +2,7 @@
 title: "Radio Implementation and Interception of a McEliece-Based Cryptosystem"
 collection: publications
 category: conferences
+date: 2026-10-01
 permalink: /publication/radio-implementation-interception-mceliece
 excerpt: 'Research exploring the implementation and interception of a McEliece-based cryptosystem using radio communication.'
 venue: 'International Telemetering Conference'
